@@ -7,5 +7,7 @@ in pkgs.mkShell {
   buildInputs = [
     pkgs.flutter
     pkgs.dart
+    pkgs.cmake
+    pkgs.ninja
   ];
 }
